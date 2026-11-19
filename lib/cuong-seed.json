@@ -1,0 +1,1822 @@
+{
+  "contact": {
+    "name": "Lê Văn Cường",
+    "role": "Chuyên viên giải pháp doanh nghiệp số",
+    "hotline": "0967 87 79 79",
+    "address": "Tòa nhà Viettel Đồng Nai, số 2047 Nguyễn Ái Quốc, KP Trung Dũng, phường Trấn Biên, TP Đồng Nai",
+    "publicEmail": "cuonglv6@viettel.com.vn",
+    "email": "cuonglv6@viettel.com.vn",
+    "portrait": "/assets/cuong-portrait-updated.png",
+    "qr": "/assets/tammi-connect-qr.jpg"
+  },
+  "pageContent": {
+    "index": {
+      "header": {
+        "text-1": "Theo cách của bạn",
+        "text-2": "Giải pháp",
+        "text-3": "Trải nghiệm",
+        "text-4": "Đăng ký tư vấn"
+      },
+      "hero": {
+        "text-1": "VIETTEL ĐỒNG NAI",
+        "text-2": "Giải pháp số toàn diện cho doanh nghiệp",
+        "text-3": "Khám phá bộ giải pháp Viettel",
+        "text-4": "Chữ ký số",
+        "text-5": "Hóa đơn điện tử",
+        "text-6": "Hợp đồng điện tử",
+        "text-7": "Internet doanh nghiệp",
+        "text-8": "KHÁM PHÁ GIẢI PHÁP >>"
+      },
+      "solutions": {
+        "text-1": "Hệ sinh thái giải pháp",
+        "text-2": "Mỗi nhu cầu.",
+        "text-3": "Một giải pháp phù hợp.",
+        "text-4": "Chọn giải pháp bạn quan tâm, Viettel sẽ hỗ trợ tư vấn, hướng dẫn sử dụng và đồng hành trong suốt quá trình triển khai"
+      },
+      "videos": {
+        "text-1": "Video giới thiệu các giải pháp",
+        "text-2": "KHÁM PHÁ GIẢI PHÁP VIETTEL",
+        "text-3": "Xem trên YouTube ↗",
+        "text-4": "Tôi muốn được tư vấn",
+        "text-5": "01. Chữ ký số Viettel CA",
+        "text-6": "Viettel-CA",
+        "text-7": "02. Hợp đồng điện tử vContract",
+        "text-8": "vContract",
+        "text-9": "03. Hóa đơn điện tử SInvoice",
+        "text-10": "SInvoice",
+        "text-11": "04. Internet doanh nghiệp",
+        "text-12": "INTERNET"
+      },
+      "connect": {
+        "text-1": "KẾT NỐI CÙNG BẠN",
+        "text-2": "Kết nối ngay.",
+        "text-3": "Tư vấn tận tâm.",
+        "text-4": "Giải pháp phù hợp cho doanh nghiệp của bạn.",
+        "text-5": "KẾT NỐI DỄ DÀNG",
+        "text-6": "ĐỒNG HÀNH BỀN VỮNG"
+      },
+      "forms": {
+        "text-1": "Theo cách của bạn",
+        "text-2": "Đăng ký tư vấn miễn phí",
+        "text-3": "Để lại thông tin, Viettel sẽ liên hệ tư vấn.",
+        "text-4": "Họ tên liên hệ",
+        "text-5": "Nhập họ tên",
+        "text-6": "Số điện thoại",
+        "text-7": "Nhập số điện thoại",
+        "text-8": "Email (không bắt buộc)",
+        "text-9": "Nhập email",
+        "text-10": "Sản phẩm quan tâm",
+        "text-11": "Tôi đồng ý với",
+        "text-12": "chính sách về dữ liệu cá nhân",
+        "text-13": "NHẬN TƯ VẤN VÀ BÁO GIÁ",
+        "text-14": "Hoặc gọi 0967 87 79 79"
+      },
+      "popup": {
+        "text-1": "Theo cách của bạn",
+        "text-2": "Đăng ký tư vấn miễn phí",
+        "text-3": "Để lại thông tin, Viettel sẽ liên hệ tư vấn.",
+        "text-4": "Họ tên liên hệ",
+        "text-5": "Nhập họ tên",
+        "text-6": "Số điện thoại",
+        "text-7": "Nhập số điện thoại",
+        "text-8": "Email (không bắt buộc)",
+        "text-9": "Nhập email",
+        "text-10": "Sản phẩm quan tâm",
+        "text-11": "Tôi đồng ý với",
+        "text-12": "chính sách về dữ liệu cá nhân",
+        "text-13": "NHẬN TƯ VẤN VÀ BÁO GIÁ",
+        "text-14": "Hoặc gọi 0967 87 79 79"
+      },
+      "footer": {}
+    }
+  },
+  "serviceCatalog": [
+    {
+      "id": "ca",
+      "enabled": true,
+      "name": "Chữ ký số",
+      "slug": "ca",
+      "category": "VIETTEL-CA",
+      "detailTitle": "Chữ ký số",
+      "description": "Ký số tài liệu và giao dịch điện tử theo nhu cầu, gói dịch vụ và hình thức ký được lựa chọn.",
+      "image": "/assets/ca-product.png",
+      "detailIntro": "",
+      "detailContent": "",
+      "official": "",
+      "points": []
+    },
+    {
+      "id": "contract",
+      "enabled": true,
+      "name": "Hợp đồng điện tử",
+      "slug": "contract",
+      "category": "VCONTRACT",
+      "detailTitle": "Hợp đồng điện tử",
+      "description": "Hỗ trợ ký kết và lưu trữ hợp đồng trên môi trường điện tử, thuận tiện khi làm việc từ xa.",
+      "image": "/assets/vcontract-product.png",
+      "detailIntro": "",
+      "detailContent": "",
+      "official": "",
+      "points": []
+    },
+    {
+      "id": "invoice",
+      "enabled": true,
+      "name": "Hóa đơn điện tử",
+      "slug": "invoice",
+      "category": "SINVOICE",
+      "detailTitle": "Hóa đơn điện tử",
+      "description": "Hỗ trợ lập, gửi và quản lý hóa đơn điện tử trong quy trình kinh doanh.",
+      "image": "/assets/sinvoice-product.png",
+      "detailIntro": "",
+      "detailContent": "",
+      "official": "",
+      "points": []
+    },
+    {
+      "id": "ftth",
+      "enabled": true,
+      "name": "Internet doanh nghiệp",
+      "slug": "ftth",
+      "category": "INTERNET DOANH NGHIỆP",
+      "detailTitle": "Gói cước Internet cho Doanh nghiệp",
+      "description": "Giải pháp Internet tốc độ cao, ổn định, đáp ứng nhu cầu kết nối của doanh nghiệp.",
+      "image": "/assets/internet-product.png",
+      "detailIntro": "",
+      "detailContent": "",
+      "official": "",
+      "points": []
+    }
+  ],
+  "prices": {
+    "ca": [
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Cấp mới 1 năm Chữ ký số USB TOKEN cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: USB TOKEN: Có",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-org-0",
+        "group": "usb-org",
+        "name": "GÓI CA1",
+        "price": 1792000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Cấp mới 2 năm Chữ ký số USB TOKEN cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: USB TOKEN: Có",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-org-1",
+        "group": "usb-org",
+        "name": "GÓI CA2",
+        "price": 2691000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Cấp mới 3 năm Chữ ký số USB TOKEN cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: USB TOKEN: Có",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-org-2",
+        "group": "usb-org",
+        "name": "GÓI CA3",
+        "price": 3052000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gia hạn 1 năm Chữ ký số cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-org-3",
+        "group": "usb-org",
+        "name": "GÓI CA1_GH",
+        "price": 1252000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gia hạn 2 năm Chữ ký số cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-org-4",
+        "group": "usb-org",
+        "name": "GÓI CA2_GH",
+        "price": 2151000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gia hạn 3 năm Chữ ký số cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-org-5",
+        "group": "usb-org",
+        "name": "GÓI CA3_GH",
+        "price": 2856000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Cấp mới 1 năm Chữ ký số USB TOKEN cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: USB TOKEN: Có",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-person-0",
+        "group": "usb-person",
+        "name": "GÓI CACN1",
+        "price": 486000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Cấp mới 2 năm Chữ ký số USB TOKEN cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: USB TOKEN: Có",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-person-1",
+        "group": "usb-person",
+        "name": "GÓI CACN2",
+        "price": 826000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Cấp mới 3 năm Chữ ký số USB TOKEN cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: USB TOKEN: Có",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-person-2",
+        "group": "usb-person",
+        "name": "GÓI CACN3",
+        "price": 1166000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gia hạn 1 năm Chữ ký số cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-person-3",
+        "group": "usb-person",
+        "name": "GÓI CACN1_GH",
+        "price": 486000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gia hạn 2 năm Chữ ký số cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-person-4",
+        "group": "usb-person",
+        "name": "GÓI CACN2_GH",
+        "price": 826000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gia hạn 3 năm Chữ ký số cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-usb-person-5",
+        "group": "usb-person",
+        "name": "GÓI CACN3_GH",
+        "price": 1166000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Cấp mới 1 năm Chữ ký số HSM cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-hsm-org-0",
+        "group": "hsm-org",
+        "name": "GÓI HSM1",
+        "price": 4810000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Cấp mới 2 năm Chữ ký số HSM cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-hsm-org-1",
+        "group": "hsm-org",
+        "name": "GÓI HSM2",
+        "price": 9081000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Cấp mới 3 năm Chữ ký số HSM cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-hsm-org-2",
+        "group": "hsm-org",
+        "name": "GÓI HSM3",
+        "price": 12960000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Cấp mới 1 năm Chữ ký số HSM cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-hsm-person-0",
+        "group": "hsm-person",
+        "name": "GÓI HSM_CN1",
+        "price": 486000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Cấp mới 2 năm Chữ ký số HSM cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-hsm-person-1",
+        "group": "hsm-person",
+        "name": "GÓI HSM_CN2",
+        "price": 826000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Cấp mới 3 năm Chữ ký số HSM cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-hsm-person-2",
+        "group": "hsm-person",
+        "name": "GÓI HSM_CN3",
+        "price": 1166000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Cấp mới 1 năm Chữ ký số Mobile CA cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Giá cước chưa kèm phí SIM CA 99.000đ",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-org-0",
+        "group": "mobile-org",
+        "name": "GÓI MCA1",
+        "price": 588000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Cấp mới 2 năm Chữ ký số Mobile CA cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Giá cước chưa kèm phí SIM CA 99.000đ",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-org-1",
+        "group": "mobile-org",
+        "name": "GÓI MCA2",
+        "price": 1079000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Cấp mới 3 năm Chữ ký số Mobile CA cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Giá cước chưa kèm phí SIM CA 99.000đ",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-org-2",
+        "group": "mobile-org",
+        "name": "GÓI MCA3",
+        "price": 1569000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gia hạn 1 năm Chữ ký số Mobile CA cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-org-3",
+        "group": "mobile-org",
+        "name": "GÓI MCA1_GH",
+        "price": 529000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gia hạn 2 năm Chữ ký số Mobile CA cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-org-4",
+        "group": "mobile-org",
+        "name": "GÓI MCA2_GH",
+        "price": 971000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gia hạn 3 năm Chữ ký số Mobile CA cho tổ chức",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-org-5",
+        "group": "mobile-org",
+        "name": "GÓI MCA3_GH",
+        "price": 1412000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Cấp mới 1 năm Chữ ký số Mobile CA cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Giá cước chưa kèm phí SIM CA 99.000đ",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-person-0",
+        "group": "mobile-person",
+        "name": "GÓI MCA_CN1",
+        "price": 391000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Cấp mới 2 năm Chữ ký số Mobile CA cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Giá cước chưa kèm phí SIM CA 99.000đ",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-person-1",
+        "group": "mobile-person",
+        "name": "GÓI MCA_CN2",
+        "price": 686000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Cấp mới 3 năm Chữ ký số Mobile CA cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Giá cước chưa kèm phí SIM CA 99.000đ",
+          "Loại đăng ký: Đăng ký mới"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-person-2",
+        "group": "mobile-person",
+        "name": "GÓI MCA_CN3",
+        "price": 980000,
+        "registration": "new"
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gia hạn 1 năm Chữ ký số Mobile CA cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 12 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-person-3",
+        "group": "mobile-person",
+        "name": "GÓI MCA_CN1GH",
+        "price": 352000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gia hạn 2 năm Chữ ký số Mobile CA cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 24 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-person-4",
+        "group": "mobile-person",
+        "name": "GÓI MCA_CN2GH",
+        "price": 617000,
+        "registration": "renew"
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gia hạn 3 năm Chữ ký số Mobile CA cho cá nhân",
+          "Phí hòa mạng: 0đ",
+          "Phí lắp đặt: 0đ",
+          "Thời gian sử dụng: 36 tháng",
+          "Thuế VAT: Đã gồm",
+          "Thiết bị: Không",
+          "Loại đăng ký: Gia hạn"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ca-mobile-person-5",
+        "group": "mobile-person",
+        "name": "GÓI MCA_CN3GH",
+        "price": 882000,
+        "registration": "renew"
+      }
+    ],
+    "contract": [
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Số lượng HĐ100",
+          "Phí gói0đ",
+          "Phí chứng thực0đ",
+          "Phí khởi tạo1.000.000đ"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "contract-0",
+        "group": "paid",
+        "name": "VCONT_100",
+        "description": "Gói 100 hợp đồng kèm chứng thực",
+        "quantity": 100,
+        "price": 1913000,
+        "footnote": "Đăng ký kèm SMS Brandname với giá 150đ/SMS nội mạng ViettelĐăng ký kèm eKYC chỉ từ 1000đ/SMS"
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Số lượng HĐ500",
+          "Phí gói0đ",
+          "Phí chứng thực0đ",
+          "Phí khởi tạo1.000.000đ"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "contract-1",
+        "group": "paid",
+        "name": "VCONT_500",
+        "description": "Gói 500 hợp đồng kèm chứng thực",
+        "quantity": 500,
+        "price": 5345000,
+        "footnote": "Đăng ký kèm SMS Brandname với giá 150đ/SMS nội mạng ViettelĐăng ký kèm eKYC chỉ từ 1000đ/SMS"
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Số lượng HĐ1.000",
+          "Phí gói0đ",
+          "Phí chứng thực0đ",
+          "Phí khởi tạo1.000.000đ"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "contract-2",
+        "group": "paid",
+        "name": "VCONT_1000",
+        "description": "Gói 1.000 hợp đồng kèm chứng thực",
+        "quantity": 1000,
+        "price": 9250000,
+        "footnote": "Đăng ký kèm SMS Brandname với giá 150đ/SMS nội mạng ViettelĐăng ký kèm eKYC chỉ từ 1000đ/SMS"
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Số lượng HĐ5.000",
+          "Phí gói0đ",
+          "Phí chứng thực0đ",
+          "Phí khởi tạo1.000.000đ"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "contract-3",
+        "group": "paid",
+        "name": "VCONT_5000",
+        "description": "Gói 5.000 hợp đồng kèm chứng thực",
+        "quantity": 5000,
+        "price": 38400000,
+        "footnote": "Đăng ký kèm SMS Brandname với giá 150đ/SMS nội mạng ViettelĐăng ký kèm eKYC chỉ từ 1000đ/SMS"
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Số lượng HĐ0",
+          "Phí gói0đ",
+          "Phí chứng thực0đ",
+          "Phí khởi tạo1.000.000đ"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "contract-4",
+        "group": "paid",
+        "name": "VCONT_10K",
+        "description": "Gói 10.000 hợp đồng kèm chứng thực",
+        "quantity": 0,
+        "price": 73600000,
+        "footnote": "Đăng ký kèm SMS Brandname với giá 150đ/SMS nội mạng ViettelĐăng ký kèm eKYC chỉ từ 1000đ/SMS"
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Số lượng HĐ100.000",
+          "Phí gói0đ",
+          "Phí chứng thực0đ",
+          "Phí khởi tạo1.000.000đ"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "contract-5",
+        "group": "paid",
+        "name": "VCONT_100K",
+        "description": "Gói 100.000 hợp đồng kèm chứng thực",
+        "quantity": 100000,
+        "price": 705000000,
+        "footnote": "Đăng ký kèm SMS Brandname với giá 150đ/SMS nội mạng ViettelĐăng ký kèm eKYC chỉ từ 1000đ/SMS"
+      }
+    ],
+    "invoice": [
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Gói 300 hóa đơn điện tử"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "invoice-0",
+        "group": "single",
+        "name": "Gói HD_300_TT78",
+        "price": 421000,
+        "quantity": 300,
+        "years": null
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Gói 500 hóa đơn điện tử"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "invoice-1",
+        "group": "single",
+        "name": "Gói HD_500_TT78",
+        "price": 572000,
+        "quantity": 500,
+        "years": null
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Gói 1.000 hóa đơn điện tử"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "invoice-2",
+        "group": "single",
+        "name": "Gói HD_1K_TT78",
+        "price": 896000,
+        "quantity": 1000,
+        "years": null
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Gói 2.000 hóa đơn điện tử"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "invoice-3",
+        "group": "single",
+        "name": "Gói HD_2K_TT78",
+        "price": 1350000,
+        "quantity": 2000,
+        "years": null
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Gói 5.000 hóa đơn điện tử"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "invoice-4",
+        "group": "single",
+        "name": "Gói HD_5K_TT78",
+        "price": 2883000,
+        "quantity": 5000,
+        "years": null
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [
+          "Gói 10.000 hóa đơn điện tử"
+        ],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "invoice-5",
+        "group": "single",
+        "name": "Gói HD_10K_TT78",
+        "price": 4773000,
+        "quantity": 10000,
+        "years": null
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 1 năm và 300 hóa đơn điện tử"
+        ],
+        "old": 2255000,
+        "discount": 8,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-0-0",
+        "group": "new",
+        "name": "Combo Cấp mới CA 1 năm + 300 hóa đơn",
+        "price": 2079000,
+        "quantity": 300,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 1 năm và 500 hóa đơn điện tử"
+        ],
+        "old": 2409000,
+        "discount": 8,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-0-1",
+        "group": "new",
+        "name": "Combo Cấp mới CA 1 năm + 500 hóa đơn",
+        "price": 2222000,
+        "quantity": 500,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 1 năm và 1000 hóa đơn điện tử"
+        ],
+        "old": 2739000,
+        "discount": 8,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-0-2",
+        "group": "new",
+        "name": "Combo Cấp mới CA 1 năm + 1000 hóa đơn",
+        "price": 2519000,
+        "quantity": 1000,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 1 năm và 2000 hóa đơn điện tử"
+        ],
+        "old": 3201000,
+        "discount": 8,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-0-3",
+        "group": "new",
+        "name": "Combo Cấp mới CA 1 năm + 2000 hóa đơn",
+        "price": 2937000,
+        "quantity": 2000,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 1 năm và 3000 hóa đơn điện tử"
+        ],
+        "old": 3762000,
+        "discount": 9,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-0-4",
+        "group": "new",
+        "name": "Combo Cấp mới CA 1 năm + 3000 hóa đơn",
+        "price": 3432000,
+        "quantity": 3000,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 2 năm và 300 hóa đơn điện tử"
+        ],
+        "old": 3170000,
+        "discount": 8,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-1-0",
+        "group": "new",
+        "name": "Combo Cấp mới CA 2 năm + 300 hóa đơn",
+        "price": 2904000,
+        "quantity": 300,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 2 năm và 500 hóa đơn điện tử"
+        ],
+        "old": 3324000,
+        "discount": 8,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-1-1",
+        "group": "new",
+        "name": "Combo Cấp mới CA 2 năm + 500 hóa đơn",
+        "price": 3047000,
+        "quantity": 500,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 2 năm và 1000 hóa đơn điện tử"
+        ],
+        "old": 3654000,
+        "discount": 8,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-1-2",
+        "group": "new",
+        "name": "Combo Cấp mới CA 2 năm + 1000 hóa đơn",
+        "price": 3344000,
+        "quantity": 1000,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 2 năm và 2000 hóa đơn điện tử"
+        ],
+        "old": 4116000,
+        "discount": 9,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-1-3",
+        "group": "new",
+        "name": "Combo Cấp mới CA 2 năm + 2000 hóa đơn",
+        "price": 3762000,
+        "quantity": 2000,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 2 năm và 3000 hóa đơn điện tử"
+        ],
+        "old": 4677000,
+        "discount": 9,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-1-4",
+        "group": "new",
+        "name": "Combo Cấp mới CA 2 năm + 3000 hóa đơn",
+        "price": 4257000,
+        "quantity": 3000,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 3 năm và 300 hóa đơn điện tử"
+        ],
+        "old": 3538000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-2-0",
+        "group": "new",
+        "name": "Combo Cấp mới CA 3 năm + 300 hóa đơn",
+        "price": 3179000,
+        "quantity": 300,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 3 năm và 500 hóa đơn điện tử"
+        ],
+        "old": 3692000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-2-1",
+        "group": "new",
+        "name": "Combo Cấp mới CA 3 năm + 500 hóa đơn",
+        "price": 3322000,
+        "quantity": 500,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 3 năm và 1000 hóa đơn điện tử"
+        ],
+        "old": 4022000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-2-2",
+        "group": "new",
+        "name": "Combo Cấp mới CA 3 năm + 1000 hóa đơn",
+        "price": 3619000,
+        "quantity": 1000,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 3 năm và 2000 hóa đơn điện tử"
+        ],
+        "old": 4484000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-2-3",
+        "group": "new",
+        "name": "Combo Cấp mới CA 3 năm + 2000 hóa đơn",
+        "price": 4037000,
+        "quantity": 2000,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo cấp mới chữ ký số CA 3 năm và 3000 hóa đơn điện tử"
+        ],
+        "old": 5045000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-2-4",
+        "group": "new",
+        "name": "Combo Cấp mới CA 3 năm + 3000 hóa đơn",
+        "price": 4532000,
+        "quantity": 3000,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 1 năm và 300 hóa đơn điện tử"
+        ],
+        "old": 1705000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-3-0",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 1 năm + 300 hóa đơn",
+        "price": 1529000,
+        "quantity": 300,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 1 năm và 500 hóa đơn điện tử"
+        ],
+        "old": 1859000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-3-1",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 1 năm + 500 hóa đơn",
+        "price": 1672000,
+        "quantity": 500,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 1 năm và 1000 hóa đơn điện tử"
+        ],
+        "old": 2189000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-3-2",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 1 năm + 1000 hóa đơn",
+        "price": 1969000,
+        "quantity": 1000,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 1 năm và 2000 hóa đơn điện tử"
+        ],
+        "old": 2651000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-3-3",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 1 năm + 2000 hóa đơn",
+        "price": 2387000,
+        "quantity": 2000,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "12 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 1 năm và 3000 hóa đơn điện tử"
+        ],
+        "old": 3212000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-3-4",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 1 năm + 3000 hóa đơn",
+        "price": 2882000,
+        "quantity": 3000,
+        "years": 1
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 2 năm và 300 hóa đơn điện tử"
+        ],
+        "old": 2620000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-4-0",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 2 năm + 300 hóa đơn",
+        "price": 2354000,
+        "quantity": 300,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 2 năm và 500 hóa đơn điện tử"
+        ],
+        "old": 2774000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-4-1",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 2 năm + 500 hóa đơn",
+        "price": 2497000,
+        "quantity": 500,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 2 năm và 1000 hóa đơn điện tử"
+        ],
+        "old": 3104000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-4-2",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 2 năm + 1000 hóa đơn",
+        "price": 2794000,
+        "quantity": 1000,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 2 năm và 2000 hóa đơn điện tử"
+        ],
+        "old": 3566000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-4-3",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 2 năm + 2000 hóa đơn",
+        "price": 3212000,
+        "quantity": 2000,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "24 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 2 năm và 3000 hóa đơn điện tử"
+        ],
+        "old": 4127000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-4-4",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 2 năm + 3000 hóa đơn",
+        "price": 3707000,
+        "quantity": 3000,
+        "years": 2
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 3 năm và 300 hóa đơn điện tử"
+        ],
+        "old": 3338000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-5-0",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 3 năm + 300 hóa đơn",
+        "price": 3003000,
+        "quantity": 300,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 3 năm và 500 hóa đơn điện tử"
+        ],
+        "old": 3492000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-5-1",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 3 năm + 500 hóa đơn",
+        "price": 3146000,
+        "quantity": 500,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 3 năm và 1000 hóa đơn điện tử"
+        ],
+        "old": 3822000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-5-2",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 3 năm + 1000 hóa đơn",
+        "price": 3443000,
+        "quantity": 1000,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 3 năm và 2000 hóa đơn điện tử"
+        ],
+        "old": 4284000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-5-3",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 3 năm + 2000 hóa đơn",
+        "price": 3861000,
+        "quantity": 2000,
+        "years": 3
+      },
+      {
+        "enabled": true,
+        "term": "36 tháng",
+        "details": [
+          "Gói combo gia hạn chữ ký số CA 3 năm và 3000 hóa đơn điện tử"
+        ],
+        "old": 4845000,
+        "discount": 10,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "combo-5-4",
+        "group": "renew",
+        "name": "Combo Gia hạn CA 3 năm + 3000 hóa đơn",
+        "price": 4356000,
+        "quantity": 3000,
+        "years": 3
+      }
+    ],
+    "ftth": [
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-0",
+        "group": "static",
+        "name": "F90N",
+        "domestic": 120,
+        "international": 4,
+        "option": "Động",
+        "price": 440000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-1",
+        "group": "static",
+        "name": "F300N",
+        "domestic": 120,
+        "international": 4,
+        "option": "Động",
+        "price": 440000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-2",
+        "group": "static",
+        "name": "F90N BASIC",
+        "domestic": 120,
+        "international": 2,
+        "option": "Tĩnh",
+        "price": 660000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-3",
+        "group": "static",
+        "name": "F300N BASIC",
+        "domestic": 120,
+        "international": 2,
+        "option": "Tĩnh",
+        "price": 660000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-4",
+        "group": "static",
+        "name": "VIP200",
+        "domestic": 200,
+        "international": 5,
+        "option": "Tĩnh",
+        "price": 800000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-5",
+        "group": "static",
+        "name": "F90N PLUS",
+        "domestic": 120,
+        "international": 6,
+        "option": "Tĩnh",
+        "price": 880000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-6",
+        "group": "static",
+        "name": "F200N",
+        "domestic": 200,
+        "international": 5,
+        "option": "Tĩnh",
+        "price": 1100000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-7",
+        "group": "static",
+        "name": "VIP500",
+        "domestic": 500,
+        "international": 10,
+        "option": "Tĩnh",
+        "price": 1900000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-8",
+        "group": "static",
+        "name": "F200N BASIC",
+        "domestic": 500,
+        "international": 10,
+        "option": "Tĩnh",
+        "price": 1900000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-9",
+        "group": "static",
+        "name": "VIP600",
+        "domestic": 600,
+        "international": 30,
+        "option": "Tĩnh",
+        "price": 6600000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-10",
+        "group": "static",
+        "name": "F200N PLUS",
+        "domestic": 600,
+        "international": 30,
+        "option": "Tĩnh",
+        "price": 6600000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-11",
+        "group": "static",
+        "name": "F300N PLUS",
+        "domestic": 300,
+        "international": 30,
+        "option": "Tĩnh",
+        "price": 9900000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-12",
+        "group": "static",
+        "name": "F500N BASIC",
+        "domestic": 500,
+        "international": 40,
+        "option": "Tĩnh",
+        "price": 13200000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-0-13",
+        "group": "static",
+        "name": "F500N PLUS",
+        "domestic": 500,
+        "international": 50,
+        "option": "Tĩnh",
+        "price": 17600000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-1-0",
+        "group": "dynamic",
+        "name": "PRO1",
+        "domestic": 400,
+        "international": 2,
+        "option": "Động",
+        "price": 350000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-1-1",
+        "group": "dynamic",
+        "name": "MESHPRO1",
+        "domestic": 400,
+        "international": 2,
+        "option": "Động · 1 Mesh",
+        "price": 440000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-1-2",
+        "group": "dynamic",
+        "name": "PRO2",
+        "domestic": 500,
+        "international": 5,
+        "option": "Động",
+        "price": 500000
+      },
+      {
+        "enabled": true,
+        "term": "",
+        "details": [],
+        "old": null,
+        "discount": null,
+        "vatNote": "Đã bao gồm VAT",
+        "id": "ftth-1-3",
+        "group": "dynamic",
+        "name": "MESHPRO2",
+        "domestic": 500,
+        "international": 5,
+        "option": "Động · 2 Mesh",
+        "price": 600000
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": "video-0",
+      "enabled": true,
+      "title": "Chữ ký số Viettel CA",
+      "name": "Chữ ký số Viettel CA",
+      "description": "Hướng dẫn đăng ký chữ ký số từ xa MySign.",
+      "service": "ca",
+      "link": "tA9WUQVG5J4"
+    },
+    {
+      "id": "video-1",
+      "enabled": true,
+      "title": "Hợp đồng điện tử vContract",
+      "name": "Hợp đồng điện tử vContract",
+      "description": "Video tham khảo do Lê Văn Cường cung cấp.",
+      "service": "contract",
+      "link": "5LFUiabgvwA"
+    },
+    {
+      "id": "video-2",
+      "enabled": true,
+      "title": "Hóa đơn điện tử SInvoice",
+      "name": "Hóa đơn điện tử SInvoice",
+      "description": "Giới thiệu giải pháp hóa đơn điện tử SInvoice.",
+      "service": "invoice",
+      "link": "/assets/sinvoice-introduction.mp4"
+    },
+    {
+      "id": "video-3",
+      "enabled": true,
+      "title": "Internet doanh nghiệp",
+      "name": "Internet doanh nghiệp",
+      "description": "Video giới thiệu Internet doanh nghiệp.",
+      "service": "ftth",
+      "link": "/assets/internet-business-video.mp4"
+    }
+  ],
+  "slides": [
+    {
+      "id": "slide-0",
+      "enabled": true,
+      "title": "Internet doanh nghiệp – Lê Văn Cường, vest xám",
+      "image": "/assets/business-slide-1.png"
+    },
+    {
+      "id": "slide-1",
+      "enabled": true,
+      "title": "Chữ ký số Viettel CA – Lê Văn Cường, vest đen",
+      "image": "/assets/business-slide-2.png"
+    },
+    {
+      "id": "slide-2",
+      "enabled": true,
+      "title": "Tư vấn giải pháp chuyển đổi số – Lê Văn Cường, vest xám",
+      "image": "/assets/business-slide-3.png"
+    },
+    {
+      "id": "slide-3",
+      "enabled": true,
+      "title": "Hợp đồng lao động điện tử – Lê Văn Cường, vest đen",
+      "image": "/assets/business-slide-4.png"
+    }
+  ],
+  "customPlans": []
+}
