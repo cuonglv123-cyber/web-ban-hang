@@ -98,7 +98,7 @@ function pricing($:Document,data:SiteContent,visible:Set<string>){
       : text.startsWith("Thuế VAT:") ? plan.vatNote : text;
     list.append($("<li>").text(content));
    });
-   if(!plan.details.length&&plan.term)list.append($("<li>").text("Thời gian sử dụng: "+plan.term));
+   if(plan.term&&!plan.details.some(text=>text.startsWith("Thời gian sử dụng:")))list.append($("<li>").text("Thời gian sử dụng: "+plan.term));
    card.append(list,planButton($,"ca",plan));
    target.append(card);
   }
