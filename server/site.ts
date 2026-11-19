@@ -62,12 +62,15 @@ function comboGroups($:Document,container:string,items:Plan[]){
    const table=$("<table>").append("<thead><tr><th>TÊN GÓI</th><th>ĐƠN GIÁ</th><th>ĐĂNG KÝ</th></tr></thead>");
    const body=$("<tbody>");
    for(const plan of entries.filter(plan=>plan.years===year)){
-    const title=plan.quantity===null?plan.name:"Combo "+plan.quantity+" hóa đơn "+(group==="new"?"đăng ký":"gia hạn");
+    const title=plan.name;
     const name=$("<td>").text(title);
+    if(plan.quantity!==null)name.append($("<small class='cuong-plan-details'>").text("Số hóa đơn: "+plan.quantity));
+    if(plan.details.some(Boolean))name.append($("<small class='cuong-plan-details'>").text(plan.details.filter(Boolean).join(" · ")));
     if(plan.discount!==null)name.append("<br>",$("<span class='price-discount'>").text("-"+plan.discount+"%"));
     const price=$("<td>");
     if(plan.old!==null)price.append($("<del>").text(priceText(plan.old)));
     price.append($("<strong>").text(priceText(plan.price)));
+    if(plan.term)price.append($("<small class='cuong-plan-details'>").text("Thời hạn: "+plan.term));
     if(plan.vatNote&&plan.vatNote!=="Đã bao gồm VAT")price.append($("<small>").text(plan.vatNote));
     body.append($("<tr>").append(name,price,$("<td>").append(planButton($,"invoice",plan))));
    }
@@ -89,7 +92,12 @@ function pricing($:Document,data:SiteContent,visible:Set<string>){
    card.append($("<h3>").text(plan.name),$("<div class='price-amount'>").text(priceText(plan.price)));
    if(plan.details[0])card.append($("<p>").text(plan.details[0]));
    const list=$("<ul>");
-   plan.details.slice(1).filter(Boolean).forEach(text=>list.append($("<li>").text(text)));
+   plan.details.slice(1).filter(Boolean).forEach(text=>{
+    const content=text.startsWith("Thời gian sử dụng:") ? "Thời gian sử dụng: "+(plan.term||"Liên hệ")
+      : text.startsWith("Loại đăng ký:") ? "Loại đăng ký: "+(plan.registration==="renew"?"Gia hạn":"Đăng ký mới")
+      : text.startsWith("Thuế VAT:") ? plan.vatNote : text;
+    list.append($("<li>").text(content));
+   });
    if(!plan.details.length&&plan.term)list.append($("<li>").text("Thời gian sử dụng: "+plan.term));
    card.append(list,planButton($,"ca",plan));
    target.append(card);
@@ -98,7 +106,9 @@ function pricing($:Document,data:SiteContent,visible:Set<string>){
  const invoices=visible.has("invoice")?data.prices.invoice.filter(plan=>plan.enabled):[];
  for(const plan of invoices.filter(row=>row.group==="single")){
   const card=$("<article class='price-package'>").append($("<h3>").text(plan.name),$("<div class='price-amount'>").text(priceText(plan.price)));
-  const descriptions=$("<p>").text(plan.details.filter(Boolean).join(" · ")||(plan.quantity===null?"":("Gói "+plan.quantity+" hóa đơn điện tử")));
+  const descriptions=$("<p>").text(plan.details.filter(Boolean).map(line=>/^Gói [0-9.,]+ hóa đơn điện tử$/.test(line)&&plan.quantity!==null?"Gói "+plan.quantity.toLocaleString("vi-VN")+" hóa đơn điện tử":line).join(" · "));
+  if(plan.quantity!==null)descriptions.append($("<small class='cuong-plan-details'>").text("Số hóa đơn: "+plan.quantity));
+  if(plan.term)descriptions.append($("<small class='cuong-plan-details'>").text("Thời hạn: "+plan.term));
   card.append(descriptions);
   if(plan.vatNote)card.append($("<small>").text(plan.vatNote));
   card.append(planButton($,"invoice",plan));
@@ -115,6 +125,7 @@ function pricing($:Document,data:SiteContent,visible:Set<string>){
    const match=text.match(/^(Phí gói|Phí chứng thực|Phí khởi tạo)(.+)$/);
    lines.append($("<div>").append($("<span>").text(match?.[1]??text),match?$("<b>").text(match[2]):""));
   });
+  if(plan.term)card.append($("<p class='cuong-plan-details'>").text("Thời hạn: "+plan.term));
   card.append(lines,$("<div class='vc-price'>").append("Giá bán",$("<small>").text(plan.vatNote),$("<strong>").text(priceText(plan.price))),
     $("<div class='vc-actions'>").append(planButton($,"contract",plan)),$("<p class='vc-note'>").text(plan.footnote));
   $("#vc-grid").append(card);
@@ -127,8 +138,13 @@ function pricing($:Document,data:SiteContent,visible:Set<string>){
   for(const plan of rows){
    const name=planButton($,"ftth",plan).removeClass("price-register").addClass("net-plan-link").text(plan.name);
    const price=name.clone().text(priceText(plan.price));
-   body.append($("<tr>").append($("<td>").append(name),$("<td>").text(String(plan.domestic??"—")),$("<td>").text(String(plan.international??"—")),
-    $("<td>").text(plan.option),$("<td>").append(price),$("<td>").append(planButton($,"ftth",plan))));
+   const priceCell=$("<td>").append(price);
+   if(plan.vatNote)priceCell.append($("<small class='cuong-plan-details'>").text(plan.vatNote));
+   if(plan.term)priceCell.append($("<small class='cuong-plan-details'>").text("Thời hạn: "+plan.term));
+   const nameCell=$("<td>").append(name);
+   if(plan.details.some(Boolean))nameCell.append($("<small class='cuong-plan-details'>").text(plan.details.filter(Boolean).join(" · ")));
+   body.append($("<tr>").append(nameCell,$("<td>").text(String(plan.domestic??"—")),$("<td>").text(String(plan.international??"—")),
+    $("<td>").text(plan.option),priceCell,$("<td>").append(planButton($,"ftth",plan))));
   }
   $("#net-price-groups").append($("<section>").append($("<h3>").text(title),$("<div class='net-table-wrap'>").append(table.append(body))));
  }
@@ -149,6 +165,11 @@ function home($:Document,data:SiteContent){
   card.find("h3").text(item.detailTitle||item.name);
   card.find(".uniform-product-subtitle").text(item.category);
   card.find(".uniform-product-description").text(item.description);
+  if(item.points.some(Boolean)){
+   const benefits=$("<ul class='cuong-service-benefits'>");
+   item.points.filter(Boolean).forEach(point=>benefits.append($("<li>").text(point)));
+   card.find(".uniform-product-description").after(benefits);
+  }
   const button=card.find(".uniform-detail-button");
   if(isPriceService(item.id))button.attr({"data-open-price":item.id,"aria-label":"Xem chi tiết "+item.name});
   else button.replaceWith($("<a class='uniform-detail-button'>").attr("href",catalogUrl(item)).text("Xem chi tiết"));
@@ -186,10 +207,11 @@ function home($:Document,data:SiteContent){
  const videoButtons=$("[data-solution-video]").toArray().map(node=>$(node).clone());
  const videoHost=$(".solution-video-options").empty();
  videos.forEach((item,index)=>{
-  const originalIndex=data.videos.findIndex(row=>row.id===item.id),button=(videoButtons[originalIndex]??videoButtons[0]).clone();
+  const originalIndex=defaults.videos.findIndex(row=>row.id===item.id);
+  const button=(videoButtons[originalIndex]??videoButtons[0]).clone();
   button.attr({"data-solution-video":String(index),"aria-pressed":String(index===0)});
   button.find("span").text(String(index+1).padStart(2,"0")+". "+item.title);
-  if(originalIndex<0)button.find("b").text(item.name);
+  if(originalIndex<0||item.name!==defaults.videos[originalIndex].name)button.find("b").text(item.name||item.title);
   videoHost.append(button);
  });
  if(!videos.length)$("#solution-videos,a[href='#solution-videos']").remove();

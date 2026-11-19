@@ -18,10 +18,6 @@
             "text-1": "Tiêu đề · VIETTEL ĐỒNG NAI",
             "text-2": "Tiêu đề · Giải pháp số toàn diện cho doanh nghiệp",
             "text-3": "Nội dung · Khám phá bộ giải pháp Viettel",
-            "text-4": "Nội dung · Chữ ký số",
-            "text-5": "Nội dung · Hóa đơn điện tử",
-            "text-6": "Nội dung · Hợp đồng điện tử",
-            "text-7": "Nội dung · Internet doanh nghiệp",
             "text-8": "Nội dung · KHÁM PHÁ GIẢI PHÁP >>"
           }
         },
@@ -39,16 +35,7 @@
           "fields": {
             "text-1": "Tiêu đề · Video giới thiệu các giải pháp",
             "text-2": "Nội dung · KHÁM PHÁ GIẢI PHÁP VIETTEL",
-            "text-3": "Nội dung · Xem trên YouTube ↗",
-            "text-4": "Nội dung · Tôi muốn được tư vấn",
-            "text-5": "Nội dung · 01. Chữ ký số Viettel CA",
-            "text-6": "Nội dung · Viettel-CA",
-            "text-7": "Nội dung · 02. Hợp đồng điện tử vContract",
-            "text-8": "Nội dung · vContract",
-            "text-9": "Nội dung · 03. Hóa đơn điện tử SInvoice",
-            "text-10": "Nội dung · SInvoice",
-            "text-11": "Nội dung · 04. Internet doanh nghiệp",
-            "text-12": "Nội dung · INTERNET"
+            "text-4": "Nội dung · Tôi muốn được tư vấn"
           }
         },
         "connect": {

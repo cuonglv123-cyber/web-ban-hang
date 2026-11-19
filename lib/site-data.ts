@@ -81,7 +81,7 @@ export const contentSchemas = {
     name, role:short, hotline:z.string().regex(/^\+?[\d ().-]{8,24}$/).refine(value=>value.replace(/\D/g,"").length>=8,"Kiểm tra hotline."),
     address:short, email, publicEmail:email, portrait:image, qr:image
   }),
-  slides:list(z.object({...base,title:name,image})),
+  slides:list(z.object({...base,title:name,image:image.refine(Boolean,"Chọn ảnh trình chiếu.")})),
   videos:list(z.object({...base,title:name,name:short.default(""),description:long.default(""),
     link:z.string().trim().max(2000).refine(value=>videoSource(value)!==null,"Link hoặc ID video không hợp lệ."),service:serviceRef})),
   pageContent:z.record(z.record(z.record(z.string().max(8000)))),

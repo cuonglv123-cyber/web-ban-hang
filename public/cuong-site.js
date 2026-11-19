@@ -98,7 +98,7 @@
   function show(index){
    const video=videoData[index];
    current=index;player.querySelector("video")?.pause();
-   byId("solution-video-title").textContent=video.title;
+   byId("solution-video-title").textContent=video.name||video.title;
    byId("solution-video-description").textContent=video.description;
    player.replaceChildren();
    if(video.kind==="mp4"){
