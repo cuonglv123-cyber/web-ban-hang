@@ -170,6 +170,10 @@
    }finally{submit.disabled=false;}
   });
  }
+ const header=document.querySelector(".top-consult-position");
+ const updateHeaderHeight=()=>document.documentElement.style.setProperty("--cuong-header-height",header.offsetHeight+"px");
+ updateHeaderHeight();
+ if("ResizeObserver" in window)new ResizeObserver(updateHeaderHeight).observe(header);
  const home=document.querySelector(".navigation-return-home");
  home.onclick=()=>{
   active?.close();home.hidden=true;

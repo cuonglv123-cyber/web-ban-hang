@@ -17,3 +17,7 @@
 #ca-usb[hidden],#price-single[hidden],#ca-combo[hidden],#price-combo[hidden],.business-slider-pause[hidden],.business-slider-dots[hidden]{display:none!important}
 .cuong-qr-trigger{display:block;width:100%}
 .cuong-plan-details{display:block;white-space:pre-line;font-size:13px;line-height:1.5;margin-top:5px;color:inherit}
+
+body>.top-consult-position{position:sticky;top:0;z-index:80}
+html{scroll-padding-top:calc(var(--cuong-header-height,88px) + 12px)}
+.navigation-return-home{top:calc(var(--cuong-header-height,88px) + 10px)}

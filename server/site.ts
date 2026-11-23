@@ -153,6 +153,7 @@ function pricing($:Document,data:SiteContent,visible:Set<string>){
 function home($:Document,data:SiteContent){
  applyCopy($,data);
  applyContact($,data);
+ $("main").before($(".top-consult-position"));
  const catalog=data.serviceCatalog.filter(item=>item.enabled);
  const originals=$("#cards > .uniform-product-card").toArray().map(node=>$(node).clone());
  const originalIds=["ca","contract","invoice","ftth"];
